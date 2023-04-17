@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div id="student-info">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="number">Number:</label>
+        <input type="text" id="number" name="number">
+      </div>
+      <span id="timer"></span>
+      <div id="question-container" class="hide">
+        <!-- ... -->
+      </div>
+      <!-- ... -->
+      <h1>Quiz</h1>
+      <div id="question-container">
+        <p id="question"></p>
+        <ul id="answer-buttons">
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+          <li><button class="answer-button"></button></li>
+        </ul>
+      </div>
+      <div id="controls">
+        <button id="start-button">Start Quiz</button>
+        <button id="next-button">Next Quiz</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
